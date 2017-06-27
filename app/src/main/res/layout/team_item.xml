@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Team name"
+        android:id="@+id/team_value"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="City"
+        android:id="@+id/city_label"
+        android:layout_below="@+id/team_value"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\????"
+        android:id="@+id/city_value"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/team_value"
+        android:layout_toRightOf="@+id/city_label"
+        android:layout_toEndOf="@+id/city_label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Stadium"
+        android:id="@+id/stadium_label"
+        android:layout_below="@+id/city_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="\????"
+        android:id="@+id/stadium_value"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/city_label"
+        android:layout_toRightOf="@+id/stadium_label"
+        android:layout_toEndOf="@+id/stadium_label" />
+
+</RelativeLayout>

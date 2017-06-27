@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeamsAndPlayers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_button_name">SEARCH</string>
+    <string name="no_results">No results found!!!</string>
+    <string name="more_players">More Players</string>
+    <string name="more_teams">More Teams</string>
+    <string name="api_url">INPUT_RESTful_SERVICE_URL</string>
+    <string name="header_players">Players</string>
+    <string name="header_teams">Teams</string>
+
+</resources>
